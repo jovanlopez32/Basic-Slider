@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Boopstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <!--GoogleFonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800;900&family=Roboto+Condensed:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!--CssSheet-->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<!--https://coolors.co/353535-3c6e71-ffffff-d9d9d9-284b63-->
+
+<body onload="create_buttons()">
+
+    <div class="title">
+        <h3>everesthome</h3>
+        <p>final challange</p>
+    </div>
+
+    <div class="slider">
+        <div class="space-buttons">
+            <!--Button-Up-->
+            <div class="btn_up" id="buttondown">
+                <a href="#" onclick="up_button()">
+                    <i class="bi bi-caret-up-fill" id="color_button"></i>
+                </a>
+            </div>
+            <!--Slider-Navigation-->
+            <div class="nav_slider" id="buttons"></div>
+            <!--Button-Down-->
+            <div class="btn_down" id="buttonup">
+                <a href="#" onclick="down_button()">
+                    <i class="bi bi-caret-down-fill" id="color_button"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="background_image">
+            <div class="screen-container" id="content-box">
+                <div class="screen" id="screen_1">
+                    <i class="bi bi-award" id="move_icon"></i>
+                    <h1>Hi! This is a test.</h1>
+                    <h2>EverestHome</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad beatae nulla dolores corrupti, alias
+                        repellendus eveniet tenetur. Est debitis, eveniet deleniti eligendi, repudiandae omnis
+                        laudantium
+                        dolorum ad fugiat minus corporis!</p>
+                </div>
+                <div class="screen" id="screen_2">
+                    <i class="bi bi-brightness-high-fill" id="move_icon"></i>
+                    <h1>Hi! This is a test two.</h1>
+                    <h2>EverestHome</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad beatae nulla dolores corrupti, alias
+                        repellendus eveniet tenetur. Est debitis, eveniet deleniti eligendi, repudiandae omnis
+                        laudantium
+                        dolorum ad fugiat minus corporis!</p>
+                </div>
+                <div class="screen" id="screen_3">
+                    <i class="bi bi-door-open" id="move_icon"></i>
+                    <h1>Hi! This is a test three.</h1>
+                    <h2>EverestHome</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad beatae nulla dolores corrupti, alias
+                        repellendus eveniet tenetur. Est debitis, eveniet deleniti eligendi, repudiandae omnis
+                        laudantium
+                        dolorum ad fugiat minus corporis!</p>
+
+                </div>
+
+                <div class="screen" id="screen_4">
+                    <i class="bi bi-earbuds" id="move_icon"></i>
+                    <h1>Hi! This is a test four.</h1>
+                    <h2>EverestHome</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad beatae nulla dolores corrupti, alias
+                        repellendus eveniet tenetur. Est debitis, eveniet deleniti eligendi, repudiandae omnis
+                        laudantium
+                        dolorum ad fugiat minus corporis!</p>
+                </div>
+                <div class="screen" id="screen_5">
+                    <i class="bi bi-cloud-haze2-fill" id="move_icon"></i>
+                    <h1>Hi! This is a test five.</h1>
+                    <h2>EverestHome</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad beatae nulla dolores corrupti, alias
+                        repellendus eveniet tenetur. Est debitis, eveniet deleniti eligendi, repudiandae omnis
+                        laudantium
+                        dolorum ad fugiat minus corporis!</p>
+                </div>
+                <div class="screen" id="screen_6">
+                    <i class="bi bi-tree-fill" id="move_icon"></i>
+                    <h1>Hi! This is a test six</h1>
+                    <h2>EverestHome</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad beatae nulla dolores corrupti, alias
+                        repellendus eveniet tenetur. Est debitis, eveniet deleniti eligendi, repudiandae omnis
+                        laudantium
+                        dolorum ad fugiat minus corporis!</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
